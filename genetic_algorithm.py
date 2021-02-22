@@ -132,7 +132,7 @@ def genetic_algo(data,features,target,population_size,tol_level,top_number):
   #high probability crossover
   def two_point_crossover(parents,probability):
     random.shuffle(parents)
-    #count number of pairs for roulette wheel selection
+    #count number of pairs for crossover
     no_of_pairs = round(len(parents)*probability/2)
     chromosome_len = len(parents[0])
     crossover_population = []
