@@ -178,7 +178,7 @@ def genetic_algo(data,features,target,population_size,tol_level,top_number):
     for individual in crossover_population:
       index_1 = random.randrange(len(individual))
       index_2 = random.randrange(len(individual))
-      while(index_2==index_1 and individual[index_1] != individual[index_2]):
+      while(index_2==index_1 or individual[index_1] == individual[index_2]):
         index_2 = random.randrange(len(individual))
 
       #swapping the bits
