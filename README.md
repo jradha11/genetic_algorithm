@@ -28,3 +28,5 @@ Upper limit on the variance of fitness values in a population
 
 The mutated population is now checked with the stopping criteria, if it satisfies, then the algorithm stops, otherwise the procedure is repeated with the mutated population as the new population.
 
+
+For more in-depth information checkout my medium article on the same - https://medium.com/@radhajayaraman11/feature-selection-using-genetic-algorithm-2f915d1349b0. If you like it, dont forget to clap! Thanks :)
